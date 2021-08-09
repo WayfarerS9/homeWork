@@ -1,0 +1,87 @@
+/* СПОСОБ ПЕРВЫЙ */
+.first-way li {
+    display: inline;
+    border-left: solid;
+    border-color: red;
+    padding: 10px;
+}
+
+.first-way a:hover {
+    color: red;
+}
+
+.first-way > ul > li:first-child {
+    border-left: none;
+}
+
+/* СПОСОБ ВТОРОЙ */
+.second-way {
+    word-spacing: 1px;
+}
+
+.second-way > a:hover {
+    color: red;
+}
+
+.second-way span {
+    color: red;
+    font-weight: 900;
+    font-size: 37px;
+}
+
+.second-way > a {
+    line-height: 1;
+}
+
+/* СПОСОБ ТРЕТИЙ */
+.third-way {
+    display: flex;
+    margin-top: 30px;
+}
+
+.third-way > div {
+    margin-left: 30px;
+    position: relative;
+    width: 120px;
+    text-align: center;    
+}
+
+.third-way > div::after {
+    content: "";
+    display: block;
+    height: 33px;
+    width: 3px;
+    background-color: red;
+    position: absolute;
+    top: -8px;
+    left: 135px;
+}
+
+.third-way > div:last-of-type::after {    
+    display: none;    
+}
+
+.third-way a:hover {
+    color: red;
+}
+
+/* СПОСОБ ЧЕТВЕРТЫЙ */
+.fourth-way > table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.fourth-way td {
+    border-left: red solid 3px;
+    height: 10px;
+    padding: 7px;
+    width: 125px;
+}
+
+.fourth-way td:first-of-type {
+    border: none;
+}
+
+.fourth-way a:hover {
+    color: red;
+}
