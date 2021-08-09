@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;    
+}
+
+thead {
+    background-color: #88c8ff;
+    color: #141498;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left: 24px
+}
+
+.typeOfSports {
+    background-color: yellow;
+    width: 135px;
+}
+
+.typeOfSport {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+tfoot {
+    background-color: #88c8ff;
+    color: #333399;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+}
+
+.mainContent {
+    background: url(../ball.png) top right repeat-y;
+}
