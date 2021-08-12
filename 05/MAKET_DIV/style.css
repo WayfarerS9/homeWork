@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+    background-color: #88c8ff;
+    color: #141498;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.menuAndContent {
+    display: flex;
+}
+
+.menu {
+    background-color: yellow;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.kindsOfsport {
+    margin-left: 20px;
+    padding-top: 24px;
+}
+
+.Content {
+    background-image: url(../ball.png);
+    background-position-x: right;
+    background-position-y: 50px;
+    background-repeat: repeat-y;    
+    position: relative;
+} 
+
+.kindOfSport {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 0px;
+}
+
+footer {
+    background-color: #88c8ff;
+    color: #333399;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.photo {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Content-Text {
+    padding-left: 20px;
+}
